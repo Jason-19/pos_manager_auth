@@ -13,7 +13,7 @@
                         <div class="text-muted">
                             Establezca una contraseña de seguridad global para el reembolso en la pantalla pos.
                             <div>
-                                <field name="global_refund_security" widget="char"/>
+                                <field name="global_refund_security" widget="char" placeholder='Master Password'/>
                             </div>
                         </div>
                     </div>

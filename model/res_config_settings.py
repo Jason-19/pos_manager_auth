@@ -9,4 +9,6 @@ class ResConfigSettings(models.TransientModel):
     global_refund_security = fields.Integer(
         string='Contraseña de reembolso global',
         config_parameter='pos_refund_password.global_refund_security',
-        help="Contraseña de seguridad de reembolso global, común para todas las tiendas")
+        help="Contraseña de seguridad de reembolso global, común para todas las tiendas",
+        default = 5432
+        )   
