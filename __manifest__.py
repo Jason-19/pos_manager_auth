@@ -4,13 +4,14 @@
     'summary': 'Restringir reembolso de POS con contraseña',
     'version': '17.0.1.0.1',
     'category': 'Point of Sale',
-    'author': 'Refund Control Auth',
+    'author': '',
     'depends': ['point_of_sale','hr'],
     'data': [
         'views/pos_config_views.xml',
         'views/res_config_settings_views.xml',
-        'views/hr_employee_views.xml'
-        
+        'views/hr_employee_views.xml',
+        'security/security.xml',
+        'security/ir.model.access.csv'
     ],
     'assets': {
         'point_of_sale._assets_pos': [

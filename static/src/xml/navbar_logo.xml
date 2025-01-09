@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Template for adding the image that set from the config-->
 <templates id="point_of_sale.template" xml:space="preserve">
         <t t-name="point_of_sale_logo.Navbar" t-inherit="point_of_sale.Navbar"
            t-inherit-mode="extension" owl="1">
